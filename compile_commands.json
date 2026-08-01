@@ -1,0 +1,56 @@
+[
+  {
+    "file": "src/chunk.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-std=c17",
+      "-Iinclude",
+      "-MMD",
+      "-MP",
+      "-c",
+      "src/chunk.c",
+      "-o",
+      "obj/chunk.o"
+    ],
+    "directory": "/home/atul/projects/clox",
+    "output": "obj/chunk.o"
+  },
+  {
+    "file": "src/main.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-std=c17",
+      "-Iinclude",
+      "-MMD",
+      "-MP",
+      "-c",
+      "src/main.c",
+      "-o",
+      "obj/main.o"
+    ],
+    "directory": "/home/atul/projects/clox",
+    "output": "obj/main.o"
+  },
+  {
+    "file": "src/memory.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-std=c17",
+      "-Iinclude",
+      "-MMD",
+      "-MP",
+      "-c",
+      "src/memory.c",
+      "-o",
+      "obj/memory.o"
+    ],
+    "directory": "/home/atul/projects/clox",
+    "output": "obj/memory.o"
+  }
+]
