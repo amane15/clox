@@ -1,0 +1,6 @@
+clox
+obj/
+bin/
+.cache/
+*.o 
+*.d
